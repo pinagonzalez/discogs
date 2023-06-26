@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - App</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick();
+    });
+  </script>
+
+  <style>
+    body {
+      font-family: "PP Object Sans", sans-serif;
+    }
+
+    .slider {
+      height: 315px;
+      width: 1025px;
+      overflow: hidden;
+    }
+
+    .banner-slide img {
+      width: 100%;
+    }
+
+
+    .spacer {
+      margin-bottom: 50px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: -40px
+    }
+  </style>
+</head>
+
+<body style="background-color: #000000;">
+  <nav class="navbar navbar-expand-lg navbar-light mt-3">
+    <a class="navbar-brand text-light ml-5"><img src="img/logo.png" alt="Logo" width="100"></a>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-auto mr-3">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background: linear-gradient(to right, #AEFF5C, #FFF843); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background: linear-gradient(to right, #AEFF5C, #FFF843); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Quienes
+            somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background: linear-gradient(to right, #AEFF5C, #FFF843); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Descarga
+            la app</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"
+            style="background: linear-gradient(to right, #AEFF5C, #FFF843); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="slider mt-3 mb-5" id="slider">
+    <div>
+      <img src="img/banner1.jpg" alt="Slide 1">
+    </div>
+    <div>
+      <img src="img/banner2.jpg" alt="Slide 2">
+    </div>
+    <div>
+      <img src="img/banner3.jpg" alt="Slide 3">
+    </div>
+    <div>
+      <img src="img/banner4.jpg" alt="Slide 4">
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-5">
+    <div class="row mt-5">
+      <div class="col-md-5 mt-5 mb-5 ml-5" style="font-size: 10pt; color: aliceblue;">
+        <p>"¡Bienvenido a nuestra increíble app de música! <br>
+          
+          <br>Aquí encontrarás todo lo relacionado con tu pasión por los
+          discos. Sumérgete en un mundo vibrante y apasionante donde podrás mantenerte al día con las últimas noticias
+          sobre tus artistas favoritos y descubrir lanzamientos exclusivos. Nuestro equipo de expertos se asegura de
+          proporcionarte información actualizada y detallada sobre los géneros musicales más populares.<br>
+
+          <br>Además de mantenerte informado, nuestra app te brinda la oportunidad de comprar y vender discos. Explora
+          nuestra amplia selección de vinilos, CD y ediciones especiales, y encuentra esa joya musical que has estado
+          buscando. Conecta con otros entusiastas de la música, intercambia recomendaciones y expande tu colección.
+        </p>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-4 ml-4 mt-5">
+        <img src="img/movil.png" class="img-fluid" alt="Imagen" style="height: 420px;
+        width: 220px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 mt-5 mb-5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" controls>
+            <source src="img/video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-4 ml-auto mr-5">
+      <a class="btn btn-lg btn-block text-white" href="https://www.apple.com/es/app-store/"
+        style="background: linear-gradient(to right, #ED87D5, #8216E5);">Download on iOS</a>
+    </div>
+    <div class="col-md-4 mr-auto ml-5">
+      <a class="btn btn-lg btn-block" href="https://play.google.com/store/apps?gl=ES"
+        style="background: linear-gradient(to right, #AEFF5C, #FFF843);">Download on Android</a>
+      <div class="spacer"></div>
+    </div>
+
+  </div>
+
+
+
+  <div class="row mt-4 ml-4 text-light">
+    <div class="col-md-3 ml-auto mt-5 mb-5 mr-5">
+      <h2 style="font-size: 18pt;">Empresa</h2>
+      <ul>
+        <li><a href="https://www.google.com" style="color: #ED87D5; font-size: 10pt;">A cerca de</a></li>
+        <li><a href="https://www.facebook.com" style="color: #ED87D5; font-size: 10pt;">Empleo</a></li>
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">For the record</a></li>
+
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3 mr-auto mt-5 mb-5 ml-5">
+      <h2 style="font-size: 18pt;">Comunidades</h2>
+      <ul list-style-type="none">
+        <li><a href="https://www.google.com" style="color: #ED87D5; font-size: 10pt;">Para artistas</a></li>
+        <li><a href="https://www.facebook.com" style="color: #ED87D5; font-size: 10pt;">Desarrolladores</a></li>
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">Publicidad</a></li>
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">Inversores</a></li>
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">Proveedores</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3 ml-auto mt-5 mb-5 mr-5">
+      <h2 style="font-size: 18pt;">Información legal</h2>
+      <ul>
+        <li><a href="https://www.google.com" style="color: #ED87D5; font-size: 10pt;">Aviso legal</a></li>
+        <li><a href="https://www.facebook.com" style="color: #ED87D5; font-size: 10pt;">Copyright</a></li>
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">Política de privacidad</a></li>
+        <li><a href="https://www.twitter.com" style="color: #ED87D5; font-size: 10pt;">Política de cookies</a></li>
+      </ul>
+    </div>
